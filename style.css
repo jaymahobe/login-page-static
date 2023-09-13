@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.grand-parent{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(img2.jpeg);
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    max-width: 30rem;
+    background: rgb(255, 255, 255, 0.6);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    
+}
+    
+.form-title{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: black;
+}
+.main-user-info{
+    padding-top: 0.7rem;
+}
+  
+.user-input-box{
+    padding-bottom: 1rem;
+    margin-bottom: 0.6rem;
+    
+    
+}
+.user-input-box label{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    
+    text-align: start;
+}
+.user-input-box input{
+    height: 3rem;
+    width: 99%;
+    padding: 1rem;
+    margin-top: 0.7rem;
+    border: 0.2px black solid;
+    border-radius: 4px;
+}
+
+
+.signin-button{
+    width: 100%;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+    
+    
+.signin-button>button{
+    width: 60%;
+    height: 2.4rem;
+    font-size: 1em;
+    background-color: rgb(136, 131, 131, 0.5);
+    border: 0.2px black solid;
+    transition-duration: 90ms;
+}
+
+.signin-button>button:hover{
+    color: white;
+    background-color: rgb(26, 171, 255);
+    box-shadow: 0.5px 1px 6px rgb(136, 131, 131, 0.5);
+}
+
+.forget-pass{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.forget-pass a{
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+}
+
+.create-new{
+    text-align: center;
+}
+
+.create-new a{
+    text-decoration: none;
+    color: rgba(0, 55, 255, 0.814);
+}
